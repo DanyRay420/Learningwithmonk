@@ -13,9 +13,12 @@ tensorflow-gpu==1.12.0
 mxnet-cu90==1.5.0 
 gluoncv==0.5 
 pylg
-torch==1.2.0 
+torch==1.13.1 
 torchvision==0.4.0 
 tabulate
 netron
 networkx
 matplotlib
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
