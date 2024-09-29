@@ -2,9 +2,11 @@ scipy
 scikit-learn 
 scikit-image 
 opencv-python 
-pillow==6.0.0 
+pillow==10.3.0 
 tqdm 
 psutil 
 pandas 
 tabulate
 matplotlib
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
