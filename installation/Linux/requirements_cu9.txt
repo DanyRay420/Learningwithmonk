@@ -13,7 +13,7 @@ tensorflow-gpu==1.12.0
 mxnet-cu90==1.5.0 
 gluoncv==0.5 
 pylg
-torch==1.2.0 
+torch==2.2.0 
 torchvision==0.4.0 
 tabulate
 netron
